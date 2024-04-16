@@ -19,17 +19,18 @@ function getRandomInt(max) {
 rock.addEventListener("mouseover", ()=>{
     rock.classList.add("choice2");
     let compchoice = getRandomInt(3);
+    
     if(compchoice == 1){
 
-        result.innerText = `You lose! ${compchoice}`;
+        result.innerText = "You lose!☹️";
         result.style.backgroundColor = "red";
         console.log("Lose")
     }else if(compchoice == 2){
 
-        result.innerText = `You Win ${compchoice}`;
+        result.innerText = "You Win!😀";
         result.style.backgroundColor = "green";
     }else{
-        result.innerText = `Draw  ${compchoice}`;
+        result.innerText = "Draw!😊";
         result.style.backgroundColor = "yellow";
     }
 });
