@@ -4,9 +4,15 @@
     text-align: center;
 }
 
+.heading{
+    background-color: aqua;
+    height: 50px;
+    color: blueviolet;
+}
 .choices{
 
     margin: auto;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
 }
@@ -32,10 +38,27 @@ img {
 
 .result-class{
     margin: auto;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
-    border-radius: 50%;
     width: 500px;
     height: 40px;
-    
 }
+
+.score-card{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+#userscore{
+    margin-right: 10px;
+}
+
+#compscore{
+    margin-left: 10px;
+}
+
